@@ -11,3 +11,5 @@ Horizon é uma plataforma de mentoria online desenvolvida com o objetivo de prom
 ## Tecnologias utilizadas
 - Django Framework
 - SQL
+
+![Jira](https://github.com/user-attachments/assets/03497818-6069-43a5-8cfb-f557df3c7299)
