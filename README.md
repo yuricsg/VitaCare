@@ -1,7 +1,7 @@
-#Horizon
+# Horizon
 Horizon é uma plataforma online dedicada a conectar pessoas com profissionais de saúde voluntários, oferecendo suporte psicológico, orientação médica básica e promoção do bem-estar. Alinhado com o Objetivo de Desenvolvimento Sustentável 3 (ODS 3) da ONU, o projeto busca ampliar o acesso a cuidados de saúde, especialmente em áreas remotas ou para indivíduos em situação de vulnerabilidade.
 
-##Funcionalidades
+## Funcionalidades
 - Cadastro de Usuários: Usuários podem se registrar como pacientes ou profissionais de saúde (psicólogos, médicos, nutricionistas, etc.).
 - Agendamento de Sessões: Os pacientes podem procurar por profissionais disponíveis e agendar consultas online.
 - Chat e Videoconferência: Integração com ferramentas que permitem consultas por chat ou vídeo.
