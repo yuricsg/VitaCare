@@ -22,4 +22,4 @@ Link: https://projetofundamentos.atlassian.net/jira/software/projects/KAN/boards
 
 ## Video do projeto:
 
-Link do vídeo: “https://youtu.be/8K-Lz5WUwMI?si=lgCnOtuJhccfQ7vS“
+Link do vídeo: “https://youtu.be/8K-Lz5WUwMI?si=lgCnOtuJhccfQ7vS”
