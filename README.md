@@ -23,3 +23,6 @@ Link: https://projetofundamentos.atlassian.net/jira/software/projects/KAN/boards
 ## Video do projeto:
 
 Link do vídeo: “https://youtu.be/8K-Lz5WUwMI?si=lgCnOtuJhccfQ7vS“
+
+## Nosso diagrama de atividades:
+Link: https://miro.com/welcomeonboard/OERBYm5FaFdQS28zYTV5Vm5HZ0hMRDVRSHZzS0E3N3lGakpSa1dUY2lFdnllVWxKWDJiVnpZeWtOZGFrblQwdHwzNDU4NzY0NTgxMTgzMTQ1MDgwfDI=?share_link_id=580187439616
