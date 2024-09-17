@@ -25,4 +25,4 @@ Link: https://projetofundamentos.atlassian.net/jira/software/projects/KAN/boards
 Link do vídeo: “https://youtu.be/8K-Lz5WUwMI?si=lgCnOtuJhccfQ7vS“
 
 ## Nosso diagrama de atividades:
-Link: https://miro.com/welcomeonboard/OERBYm5FaFdQS28zYTV5Vm5HZ0hMRDVRSHZzS0E3N3lGakpSa1dUY2lFdnllVWxKWDJiVnpZeWtOZGFrblQwdHwzNDU4NzY0NTgxMTgzMTQ1MDgwfDI=?share_link_id=580187439616
+Link: https://lucid.app/lucidchart/4f8f07e2-2861-4839-9e3a-6ab4bd0dc132/edit?view_items=VicVHzzAZ2cT&invitationId=inv_e307535c-b71c-49fb-8f6f-29598655392a
