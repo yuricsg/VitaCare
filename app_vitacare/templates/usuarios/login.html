@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Login - VitaCare</title>
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@100;400;600;700&family=Raleway:wght@100;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{% static 'assets/css/main.css' %}" rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="{% url 'index' %}" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">VitaCare</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="{% url 'index' %}">Home</a></li>
+          <li><a href="{% url 'login' %}" class="active">Login</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="{% url 'register' %}">Se Cadastre!</a>
+
+    </div>
+  </header>
+
+  <main class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h2 class="card-title text-center mb-4">Login</h2>
+            <form action="{% url 'login' %}" method="post">
+              {% csrf_token %}
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email" required>
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua senha" required>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Entrar</button>
+              <div class="text-center mt-3">
+                <a href="{% url 'forgot_password' %}" class="small">Esqueceu sua senha?</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+</html>
