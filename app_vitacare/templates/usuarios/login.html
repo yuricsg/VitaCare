@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -63,9 +64,7 @@
                 <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua senha" required>
               </div>
               <button type="submit" class="btn btn-primary w-100">Entrar</button>
-              <div class="text-center mt-3">
-                <a href="{% url 'forgot_password' %}" class="small">Esqueceu sua senha?</a>
-              </div>
+
             </form>
           </div>
         </div>
