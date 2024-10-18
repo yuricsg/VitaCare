@@ -1,0 +1,192 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>VitaCare</title>
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <!-- Main CSS -->
+  <style>
+    body {
+      background: #ffffff;
+      color: #333333;
+      font-family: 'Poppins', sans-serif;
+      padding-top: 70px;
+    }
+    .header {
+      background-color: transparent;
+      color: #6CC057;
+      border-bottom: none;
+      padding-bottom: 10px;
+    }
+    .sitename {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: #6CC057;
+      margin-left: 20px;
+      cursor: pointer; /* Clicável */
+    }
+    #navmenu ul {
+      display: flex;
+      gap: 20px;
+      padding-top: 10px;
+    }
+    .navmenu a {
+      color: #6CC057;
+      padding: 10px 20px;
+      border-radius: 20px;
+      border: 2px solid #6CC057;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .navmenu a:hover {
+      background-color: #6CC057;
+      color: #ffffff;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .consultas-card {
+      background-color: #f9f9f9;
+      border-radius: 15px;
+      padding: 20px;
+      color: #333;
+      border: 1px solid #e0e0e0;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      margin: auto;
+    }
+    .consultas-card h5 {
+      color: #6CC057;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+    }
+    .consultas-card h5 i {
+      margin-right: 8px;
+    }
+    .consultas-card ul li {
+      background-color: #e9e9e9;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: 500;
+    }
+    .consultas-card ul li:nth-child(2n) {
+      background-color: #6CC057;
+      color: #ffffff;
+    }
+    .calendar-container iframe {
+      border-radius: 15px;
+      border: 2px solid #6CC057;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      width: 100%; /* Garantir que o iframe ocupe toda a largura disponível */
+      height: 400px; /* Altura fixa */
+    }
+    .video-container {
+      display: flex; /* Flexbox para vídeos */
+      flex-wrap: wrap; /* Permitir que os vídeos se reorganizem */
+      justify-content: space-between; /* Espaçamento entre os vídeos */
+      gap: 20px; /* Espaço entre os vídeos */
+      margin-top: 20px; /* Espaço acima dos vídeos */
+    }
+    .video-container iframe {
+      flex: 1 1 300px; /* Tamanho flexível para os vídeos */
+      border-radius: 15px;
+      border: 2px solid #6CC057;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      height: 230px; /* Altura fixa */
+    }
+    .btn-login {
+      background-color: #6CC057;
+      border: none;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-weight: 500;
+      text-align: center;
+      display: inline-block;
+    }
+    .btn-login:hover {
+      background-color: #5aaa4d;
+    }
+    .scroll-top {
+      background-color: #6CC057;
+      color: #ffffff;
+      padding: 10px;
+      border-radius: 50%;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .scroll-top:hover {
+      background-color: #5aaa4d;
+    }
+  </style>
+</head>
+<body>
+  <header id="header" class="header d-flex align-items-center sticky-top fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <h1 class="sitename" id="logo">VitaCare</h1>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="{% url 'consultas' %}">Ana</a></li>
+          <li><a href="{% url 'index' %}">Sair</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="consultas-card p-4">
+          <h5><i class="bi bi-calendar3"></i> ÚLTIMAS CONSULTAS</h5>
+          <ul class="list-unstyled">
+            <li>15/05/2024</li>
+            <li>26/05/2024</li>
+            <li>10/06/2024</li>
+          </ul>
+          <h5><i class="bi bi-calendar3"></i> PRÓXIMAS CONSULTAS</h5>
+          <ul class="list-unstyled">
+            <li>30/06/2024</li>
+            <li>05/07/2024</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="calendar-container p-4">
+          <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&showNav=1&showDate=1&showPrint=0&showCalendars=0&mode=MONTH" style="border: 0" frameborder="0" scrolling="no"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/32UM11dSves?si=L7wlpdWQyrmjG9FE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Q2Idcwo4DCU?si=Jw1JWilIupqegLrR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/QbxPUFl3cuc?si=klslR2uVNa7xdbj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </main>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <!-- JavaScript to redirect logo click -->
+  <script>
+    document.getElementById("logo").onclick = function () {
+      window.location.href = "{% static 'index' %}";
+    };
+    // Scroll to Top
+    document.getElementById("scroll-top").onclick = function () {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    };
+  </script>
+</body>
+</html>
