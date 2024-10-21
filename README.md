@@ -1,5 +1,5 @@
 # VitaCare
-VitaCare é uma plataforma online dedicada a conectar pessoas com profissionais de saúde voluntários, oferecendo suporte psicológico, orientação médica básica e promoção do bem-estar. Alinhado com o Objetivo de Desenvolvimento Sustentável 3 (ODS 3) da ONU, o projeto busca ampliar o acesso a cuidados de saúde, especialmente em áreas remotas ou para indivíduos em situação de vulnerabilidade.
+VitaCare é uma plataforma online que facilita o acesso a cuidados de saúde, conectando usuários a profissionais de saúde voluntários. A plataforma oferece suporte psicológico, orientação médica básica e recursos de promoção do bem-estar, visando atender pessoas em situação de vulnerabilidade ou residentes em áreas remotas. Com base no Objetivo de Desenvolvimento Sustentável 3 (ODS 3) da ONU, a VitaCare busca democratizar o acesso à saúde, criando uma rede de apoio eficiente e acessível para todos.
 
 ## Funcionalidades
 - Cadastro de Usuários: Usuários podem se registrar como pacientes ou profissionais de saúde (psicólogos, médicos, nutricionistas, etc.).
@@ -17,7 +17,7 @@ VitaCare é uma plataforma online dedicada a conectar pessoas com profissionais 
 - JavaScript
 
 ## Trello do projeto
-![Jira](https://github.com/user-attachments/assets/03497818-6069-43a5-8cfb-f557df3c7299)
+![trello vitacare](https://github.com/user-attachments/assets/72961577-d0af-4bfb-9d15-cc47706c6ce4)
 Link: https://trello.com/invite/b/66e9691e12219c61e45a9da9/ATTIebc39c44416c27ab650faffabc5d4a09FEB93348/vitacare
 
 ## Video do projeto:
