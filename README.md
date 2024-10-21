@@ -16,7 +16,7 @@ VitaCare é uma plataforma online dedicada a conectar pessoas com profissionais 
 - HTML5 & CSS
 - JavaScript
 
-## Jira do projeto
+## Trello do projeto
 ![Jira](https://github.com/user-attachments/assets/03497818-6069-43a5-8cfb-f557df3c7299)
 Link: https://projetofundamentos.atlassian.net/jira/software/projects/KAN/boards/1?atlOrigin=eyJpIjoiZjA2MzY5NmQyZGQwNGYzMTliOWE5YTdmZDU1MDMwNjgiLCJwIjoiaiJ9
 
