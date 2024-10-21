@@ -51,25 +51,9 @@
     <div class="row justify-content-center">
       <div class="col-md-6">
         <h2>Cadastre-se</h2>
-        <form>
-          <div class="mb-3">
-            <label for="name" class="form-label">Nome Completo</label>
-            <input type="text" class="form-control" id="name" placeholder="Digite seu nome completo:">
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="Digite seu email:">
-          </div>
-
-          <div class="mb-3">
-            <label for="cpf" class="form-label">CPF</label>
-            <input type="cpf" class="form-control" id="cpf" placeholder="Digite seu CPF:">
-          </div>
-          
-          <div class="mb-3">
-            <label for="password" class="form-label">Senha</label>
-            <input type="password" class="form-control" id="password" placeholder="Digite sua senha:">
-          </div>
+        <form method="post" action="">
+          {% csrf_token %}
+          {{ form.as_p }}
           <button type="submit" class="btn-getstarted button-cadastro">Cadastrar</button>
         </form>
       </div>

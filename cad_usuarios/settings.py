@@ -65,8 +65,12 @@ WSGI_APPLICATION = 'cad_usuarios.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'VitaCare',
+        'USER': 'root',
+        'PASSWORD': '76281Yy00!',
+        'HOST': 'localhost',  
+        'PORT': '3306',       
     }
 }
 
@@ -110,7 +114,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = 'staticfiles'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static') 
+    os.path.join(BASE_DIR, 'app_vitacare', 'static') 
 ]
 
 # Default primary key field type
