@@ -53,6 +53,13 @@
         <div class="card shadow-sm">
           <div class="card-body">
             <h2 class="card-title text-center mb-4">Login</h2>
+            {% if messages %}
+            <div>
+              {% for message in messages %}
+                <div class="alert alert-danger">{{ message }}</div>
+              {% endfor %}
+            </div>
+          {% endif %}
             <form action="{% url 'login' %}" method="post">
               {% csrf_token %}
               <div class="mb-3">
