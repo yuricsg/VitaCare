@@ -37,6 +37,18 @@ Antes de começar, certifique-se de que você tem as seguintes dependências ins
 ### Passos de configuração
 #### 1. Clonar o repositório
 Primeiro, faça o clone do projeto em sua máquina local:
-```git clone https://github.com/seu-usuario/vitacare.git```
+```bash
+git clone https://github.com/seu-usuario/vitacare.git
+
+#### 2. Criar o ambiente virtual
+```bash
+# Criando o ambiente virtual
+python -m venv venv
+
+# Ativando o ambiente virtual (Windows)
+venv\Scripts\activate
+
+# Ativando o ambiente virtual (Linux/macOS)
+source venv/bin/activate
 
 
