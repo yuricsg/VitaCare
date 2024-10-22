@@ -61,9 +61,48 @@ pip install -r requirements.txt
 ```
 
 #### 4. Configurar o banco de dados MySQL
-##### 1. Criar o banco de dados: 
-Acesse seu MySQL e crie um banco de dados para o projeto:
-```sql
-CREATE DATABASE VitaCare;
+  ##### 1. Criar o banco de dados: 
+  Acesse seu MySQL e crie um banco de dados para o projeto:
+  ```sql
+  CREATE DATABASE VitaCare;
+  ```
+
+  ##### 2. Atualizar as credenciais:
+  No arquivo `settings.py`, certifique-se que as credenciais estão corretas:
+  ```python
+  DATABASES = {
+      'default': {
+          'ENGINE': 'django.db.backends.mysql',
+          'NAME': 'VitaCare',
+          'USER': 'seu_usuario',
+          'PASSWORD': 'sua_senha',
+          'HOST': 'localhost',
+          'PORT': '3306',
+      }
+  }
+  ```
+#### 5. Aplicar as migrações
+Execute as migrações para criar as tabelas do banco de dados:
+```bash
+python manage.py makemigrations
+python manage.py migrate
 ```
+
+#### 6. Criar um Superusuário
+Crie um superusuário para acessar a interface administrativa:
+```bash
+python manage.py createsuperuser
+```
+
+#### 7. Coletar arquivos estáticos
+No ambiente de produção, você precisa coletar todos os arquivos estáticos (CSS, JavaScript, etc.) em um único diretório para servir ao cliente final:
+```bash
+python manage.py collectstatic
+```
+
+#### 8. Executar o Servidor Django
+```bash
+python manage.py runserver
+```
+
 
