@@ -21,8 +21,14 @@ VitaCare é uma plataforma online que facilita o acesso a cuidados de saúde, co
 Link: https://trello.com/invite/b/66e9691e12219c61e45a9da9/ATTIebc39c44416c27ab650faffabc5d4a09FEB93348/vitacare
 
 ## Video do projeto:
-
 Link do vídeo: “https://youtu.be/8K-Lz5WUwMI?si=lgCnOtuJhccfQ7vS“
 
 ## Nosso diagrama de atividades:
 Link: https://lucid.app/lucidchart/4f8f07e2-2861-4839-9e3a-6ab4bd0dc132/edit?view_items=VicVHzzAZ2cT&invitationId=inv_e307535c-b71c-49fb-8f6f-29598655392a
+
+## Deploy do projeto
+### Requisitos
+Antes de começar, certifique-se de que você tem as seguintes dependências instaladas no seu sistema:
+- Python 3.13 ou superior (https://www.python.org/downloads/)
+- Django 5.x (instalado via `pip`)
+- 
