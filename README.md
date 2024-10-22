@@ -31,4 +31,12 @@ Link: https://lucid.app/lucidchart/4f8f07e2-2861-4839-9e3a-6ab4bd0dc132/edit?vie
 Antes de começar, certifique-se de que você tem as seguintes dependências instaladas no seu sistema:
 - Python 3.13 ou superior (https://www.python.org/downloads/)
 - Django 5.x (instalado via `pip`)
-- 
+- MySQL (https://dev.mysql.com/downloads/installer/)
+- Virtualenv (https://virtualenv.pypa.io/en/stable/)
+
+  ### Passos de configuração
+  #### 1. Clonar o repositório
+  Primeiro, faça o clone do projeto em sua máquina local:
+  ```bash
+  git clone https://github.com/seu-usuario/vitacare.git
+  cd vitacare```
