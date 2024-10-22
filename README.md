@@ -101,6 +101,7 @@ python manage.py collectstatic
 ```
 
 #### 8. Executar o Servidor Django
+Agora você pode executar o servidor.
 ```bash
 python manage.py runserver
 ```
