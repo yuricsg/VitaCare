@@ -178,7 +178,7 @@
   <!-- JavaScript to redirect logo click -->
   <script>
     document.getElementById("logo").onclick = function () {
-      window.location.href = "{% static 'index' %}";
+      window.location.href = "{% url 'index' %}";
     };
     // Scroll to Top
     document.getElementById("scroll-top").onclick = function () {
