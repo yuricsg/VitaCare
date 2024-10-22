@@ -39,7 +39,7 @@ Antes de começar, certifique-se de que você tem as seguintes dependências ins
 Primeiro, faça o clone do projeto em sua máquina local:
 ```bash
 git clone https://github.com/seu-usuario/vitacare.git
-
+```
 #### 2. Criar o ambiente virtual
 ```bash
 # Criando o ambiente virtual
@@ -50,5 +50,5 @@ venv\Scripts\activate
 
 # Ativando o ambiente virtual (Linux/macOS)
 source venv/bin/activate
-
+```
 
