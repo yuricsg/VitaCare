@@ -34,9 +34,9 @@ Antes de começar, certifique-se de que você tem as seguintes dependências ins
 - MySQL (https://dev.mysql.com/downloads/installer/)
 - Virtualenv (https://virtualenv.pypa.io/en/stable/)
 
-  ### Passos de configuração
-  #### 1. Clonar o repositório
-  Primeiro, faça o clone do projeto em sua máquina local:
-  ```bash
-  git clone https://github.com/seu-usuario/vitacare.git
-  cd vitacare```
+### Passos de configuração
+#### 1. Clonar o repositório
+Primeiro, faça o clone do projeto em sua máquina local:
+```git clone https://github.com/seu-usuario/vitacare.git```
+
+
