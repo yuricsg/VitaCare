@@ -34,6 +34,9 @@ Antes de começar, certifique-se de que você tem as seguintes dependências ins
 - MySQL (https://dev.mysql.com/downloads/installer/)
 - Virtualenv (https://virtualenv.pypa.io/en/stable/)
 
+## Issues do nosso projeto
+
+
 ### Passos de configuração
 #### 1. Clonar o repositório
 Primeiro, faça o clone do projeto em sua máquina local:
