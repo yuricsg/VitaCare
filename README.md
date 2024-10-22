@@ -35,7 +35,7 @@ Antes de começar, certifique-se de que você tem as seguintes dependências ins
 - Virtualenv (https://virtualenv.pypa.io/en/stable/)
 
 ## Issues do nosso projeto
-
+![image](https://github.com/user-attachments/assets/838d29cc-12f2-4ad4-94c8-6bd278f7be03)
 
 ### Passos de configuração
 #### 1. Clonar o repositório
