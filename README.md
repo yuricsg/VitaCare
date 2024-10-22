@@ -44,11 +44,26 @@ git clone https://github.com/seu-usuario/vitacare.git
 ```bash
 # Criando o ambiente virtual
 python -m venv venv
-
+```
+```bash
 # Ativando o ambiente virtual (Windows)
 venv\Scripts\activate
-
+```
+```bash
 # Ativando o ambiente virtual (Linux/macOS)
 source venv/bin/activate
+```
+
+#### 3. Instalar as dependências
+Instale todas as bibliotecas necessárias a partir do arquivo `requirements.txt`:
+```bash
+pip install -r requirements.txt
+```
+
+#### 4. Configurar o banco de dados MySQL
+##### 1. Criar o banco de dados: 
+Acesse seu MySQL e crie um banco de dados para o projeto:
+```sql
+CREATE DATABASE VitaCare;
 ```
 
